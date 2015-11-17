@@ -6,6 +6,13 @@
     <edmx:Diagrams>
       <Diagram DiagramId="6f5bf8b2715f47069965cd6c2dd216ec" Name="Diagram1">
         <EntityTypeShape EntityType="HexagonDBModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HexagonDBModel.Category" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HexagonDBModel.Department" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="HexagonDBModel.Product" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="HexagonDBModel.StockIn" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="HexagonDBModel.StockOut" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HexagonDBModel.Worker" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="HexagonDBModel.WorkerSalary" Width="1.5" PointX="2.75" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

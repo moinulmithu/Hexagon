@@ -57,6 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="frmLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,9 +90,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>HexaDBModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockIn.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StockOut.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Worker.cs">
+      <DependentUpon>HexaDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerSalary.cs">
       <DependentUpon>HexaDBModel.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frmLogIn.resx">

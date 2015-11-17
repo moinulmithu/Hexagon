@@ -26,5 +26,12 @@ namespace Hexagon
         }
     
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Department> Departments { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<StockIn> StockIns { get; set; }
+        public virtual DbSet<StockOut> StockOuts { get; set; }
+        public virtual DbSet<Worker> Workers { get; set; }
+        public virtual DbSet<WorkerSalary> WorkerSalaries { get; set; }
     }
 }
