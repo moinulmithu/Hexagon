@@ -40,7 +40,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 15);
+            this.label1.Location = new System.Drawing.Point(483, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 56);
+            this.label2.Location = new System.Drawing.Point(483, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
@@ -57,14 +57,14 @@
             // 
             // txtUserId
             // 
-            this.txtUserId.Location = new System.Drawing.Point(63, 12);
+            this.txtUserId.Location = new System.Drawing.Point(542, 46);
             this.txtUserId.Name = "txtUserId";
             this.txtUserId.Size = new System.Drawing.Size(220, 20);
-            this.txtUserId.TabIndex = 2;
+            this.txtUserId.TabIndex = 1;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(63, 53);
+            this.txtPassword.Location = new System.Drawing.Point(542, 87);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(220, 20);
@@ -72,7 +72,7 @@
             // 
             // btnSignIn
             // 
-            this.btnSignIn.Location = new System.Drawing.Point(63, 82);
+            this.btnSignIn.Location = new System.Drawing.Point(542, 116);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(75, 23);
             this.btnSignIn.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             this.lblNewUser.AutoSize = true;
             this.lblNewUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNewUser.Location = new System.Drawing.Point(60, 118);
+            this.lblNewUser.Location = new System.Drawing.Point(539, 152);
             this.lblNewUser.Name = "lblNewUser";
             this.lblNewUser.Size = new System.Drawing.Size(143, 13);
             this.lblNewUser.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(597, 398);
+            this.ClientSize = new System.Drawing.Size(1209, 405);
             this.Controls.Add(this.lblNewUser);
             this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.txtPassword);
